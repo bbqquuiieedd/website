@@ -1,57 +1,48 @@
 <html>
   <head>
-    <!-- Название страницы -->
     <title>Оплата</title>
-    <!-- Подключаем внешний CSS -->
     <link rel="stylesheet" href="payment.css">
+    <style>
+      
+    </style>
   </head>
   <body style="background-color: rgb(250, 250, 250)">
-    <img class="payment-success" src="Media/payment/success.png">
-    <h2 class="payment-success">Payment Successful!</h2>
-    <p class="payment-success">Your payment has been processed successfully. You will receive a confirmation email shortly.</p>
-    
-    <table id="payment-details">
-      <tr>
-        <th class="label">Amount</th>
-        <th class="value">$149.99</th>
-      </tr>
-      <tr>
-        <td class="label">Transaction ID</td>
-        <td class="value">
-          <div class="badge-container">TXN-789123456</div>
-        </td>
-      </tr>
-      <tr>
-        <td class="label">Payment Method</td>
-        <td class="value">**** 4242</td>
-      </tr>
-      <tr>
-        <td class="label">Date</td>
-        <td class="value">Dec 15, 2024</td>
-      </tr>
-      <tr>
-        <td class="label">Merchant</td>
-        <td class="value">TechStore Pro</td>
-      </tr>
-    </table>
-    
-    <p id="receipt">
-      <img src="Media/payment/email.png">
-      Receipt sent to customer@example.com
-    </p>
-    
-    <button id="button-download" class="buttons">
-      <img src="Media/payment/download.png">
-      Download Receipt
-    </button>
-    
-    <form>
-      <button id="button-return" class="buttons">
-        <img src="Media/payment/return.png">
-        Return to Store
-      </button>
-    </form>
+    <header>
 
-    <p id="contact-info">Need help? Contact our support team at support@techstore.com</p>
+    </header>
+    <main id="container">
+        <img class="payment-success" src="Media/payment/success.png">
+        <h2 class="payment-success">Payment Successful!</h2>
+        <p class="payment-success">Your payment has been processed successfully. You will receive a confirmation email shortly.</p>
+        <table id="payment-details">
+          <tr>
+            <th class="label">Amount</th>
+            <th class="value">$149.99</th>
+          </tr>
+          <tr>
+            <td class="label">Transaction ID</td>
+            <td class="value"><div class="badge-container">TXN-789123456</div></td>
+          </tr>
+          <tr>
+            <td class="label">Payment Method</td>
+            <td class="value">**** 4242</td>
+          </tr>
+          <tr>
+            <td class="label">Date</td>
+            <td class="value">Dec 15, 2024</td>
+          </tr>
+          <tr>
+            <td class="label">Merchant</td>
+            <td class="value">TechStore Pro</td>
+          </tr>
+        </table>
+        <p id="receipt"><img src="Media/payment/email.png">Receipt sent to customer@example.com</p>
+        <button id="button-download" class="buttons"><img src="Media/payment/download.png">Download Receipt</button>
+        <button id="button-return" class="buttons"><img src="Media/payment/return.png">Return to Store</button>
+        <p id="contact-info">Need help? Contact our support team at support@techstore.com</p>
+      </main>
+    <footer>
+
+    </footer>
   </body>
 </html>
