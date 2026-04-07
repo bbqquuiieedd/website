@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <!-- Заголовок страницы -->
+    <title>TeleDisco</title>
+    <!-- Подключение внешнего CSS -->
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <!-- Шапка страницы -->
+    <header>
+      <p><a href="https://github.com/bbqquuiieedd/website"><b>TeleDisco</b></a> Медиа</p>
+      <!-- Набор ссылок -->
+      <nav>
+        <a href="../index.html">Главная</a>
+        <a href="list.html">Список</a>
+        <a href="form.html">Форма</a>
+        <a href="layout.html">Макет</a>
+        <a href="style.html">Стиль</a>
+        <a href="test.html">Тест</a>
+      </nav>
+    </header>
+    <main>
+      <img src="http://www.sololearn.com/images/tree.jpg" alt="Дерево" width="450" height="60%">
+      <img src="Media/image-me.JPG" alt="Моя фотография" width="450" height="60%">
+      <img id="img1" src="Media/layout-1.webp" alt="Макет 1 (изменяемый на 2)" width="49%">
+      <img src="Media/layout-2.webp" alt="Макет 2" width="49%"><br>
+      <button  onclick="img1.src='Media/layout-2.webp'">Сменить фото 1</button>
+      <button  onclick="img1.src='Media/layout-1.webp'">Сменить фото 2</button><br>
+      <!-- Атрибуты autoplay, muted и loop для управления поведением мультимедийного элемента, как и controls -->
+      <video autoplay muted loop controls>
+        <source src="Media/video.mp4" type="video/mp4">
+        Video not supported
+      </video><br>
+      <audio muted controls>
+        <source src="Media/meme.mp3" type="audio/mp3">
+        Audio not supported
+      </audio>
+    </main>
+  </body>
+</html>
