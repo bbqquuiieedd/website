@@ -2,7 +2,12 @@
     /* Позиционарование контейнера по центру */
     margin: auto;
     border: 1px solid;
+    padding: 10px;
     width: 50%;
+}
+
+#floor {
+    display: flex;
 }
 
 main h2 {

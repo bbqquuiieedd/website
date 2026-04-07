@@ -50,6 +50,10 @@ main {
     padding: 55px 10px 10px 10px;
 }
 
+main p {
+    margin: 0px;
+}
+
 table {
     /* Расстояние между ячейками (избавляемся от двойной границы) */
     border-collapse: collapse;
